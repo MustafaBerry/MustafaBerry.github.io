@@ -1,0 +1,43 @@
+/* General Section Styling */
+.about-section {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 50px 20px; /* Spacing for better layout */
+    text-align: center;
+    border-radius: 10px; /* Smooth edges */
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading */
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Paragraph Text */
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Adding a Hover Effect for Links */
+.about-section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
